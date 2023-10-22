@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-3</title>
+</head>
+<body>
+    <script>
+        var radius = prompt("Please input the value of radius")
+        function calculateVolumeOfSphere(radius){
+            var volOfSphere = (4/3)*(3.142)*radius*radius*radius;
+
+            return volOfSphere;
+        }
+
+        var volume = calculateVolumeOfSphere(radius);
+        document.write("Volume of Sphere is" + " " + volume + "<br/>");
+
+        
+
+
+        var height = prompt("Please input the value of height");
+        var base = prompt("Please input the value of base");
+        function calculateAreaOfTriangle(height, base){
+            var areaOfTriangle = (height*base)/2;
+
+            return areaOfTriangle;
+        }
+
+        var area = calculateAreaOfTriangle(height, base);
+        document.write ("Area of Triangle is" + " " + area);
+    </script>
+</body>
+</html>
