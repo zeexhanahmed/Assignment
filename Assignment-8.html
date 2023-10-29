@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-08</title>
+</head>
+<body>
+    <script>
+        var userinput = prompt("Please Enter Any Digit To Check Vowel");
+        var vowel = ["a", "e", "i", "o", "u"];
+
+        var matchFound = false;
+        for (var i = 0; i <= 4; i++){
+            if(userinput === vowel[i]) {
+                matchFound = true;
+                alert("Its a vowel");   
+            }
+        }
+       
+        if (matchFound === false) {
+            alert("Its not a vowel");
+        }
+    </script>
+</body>
+</html>

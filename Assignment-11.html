@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-11</title>
+</head>
+<body>
+    <script>
+        var studentName = prompt("Input Complete Name Of Student");
+       
+        var mathsMarks = prompt("Please Input Maths Marks");
+        if (mathsMarks > 100) {
+            alert("You input an invalid marks");
+            mathsMarks = prompt("Please Input Maths Marks Again");
+        }
+
+        var englishMarks = prompt("Please Input English Marks");
+        if (englishMarks > 100) {
+            alert("You input an invalid marks");
+            englishMarks =  prompt("Please Input English Marks Again");
+        }
+
+        var urduMarks = prompt("Please Input Urdu Marks");
+        if (urduMarks > 100) {
+            alert("You input an invalid marks");
+            urduMarks = prompt("Please Input Urdu Marks Again");
+        }
+
+        var islMarks = prompt("Please Input Islamiat Marks");
+        if (islMarks > 100) {
+            alert("You input an invalid marks");
+            islMarks = prompt("Please Input Islamiat Marks Again");
+        }
+
+        var sciMarks = prompt("Please Input Science Marks"); 
+        if (sciMarks > 100) {
+            alert("You input an invalid marks");
+            sciMarks = prompt("Please Input Science Marks Again"); 
+        }
+
+        function calculateResult(mathsMarks, englishMarks, urduMarks, islMarks, sciMarks) {
+        var obtainedMarks = parseInt(mathsMarks) + parseInt(englishMarks) + parseInt(urduMarks) + parseInt(islMarks) + parseInt(sciMarks);
+        var totalMarks = 500;
+        var calculatingpercentage = (obtainedMarks/totalMarks)*100;
+        var percentage = calculatingpercentage.toFixed(2);
+
+        var grade;
+        if (percentage >= 80){
+            grade = "A1";
+        }
+        else if (percentage >= 70 && percentage <= 79.9){
+            grade = "A";
+        }
+        else if (percentage >= 60 && percentage <= 69.9){
+            grade = "B";
+        }
+        else {
+            var grade = "C";
+        }
+
+        var result = (studentName + " " + "got" + " " + percentage + "%" + " " +"marks with Grade" + " " + grade + "<br/>" + "Thank you!");
+        return result;
+
+        }
+
+        var finalReport = calculateResult(mathsMarks, englishMarks, urduMarks, islMarks, sciMarks);
+        document.write(finalReport);
+
+    </script>
+</body>
+</html>
