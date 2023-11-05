@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-27</title>
+</head>
+<body>
+    <script>
+
+        var total = 0;
+        var seriesSum = [];
+
+        do {
+            var userInput = prompt("Please Enter any number");
+            for(var i = 1; i <= userInput; i++) {
+                total = total + i;
+            }
+
+            seriesSum.push(total);
+            total = 0; 
+            userInput2 =  prompt("If you want to continue press Y / N");
+            userInput2 = userInput2.toUpperCase();
+
+        }while(userInput2 === "Y"); 
+           
+        for(var j = 0; j <= seriesSum.length-1; j++) {
+            document.write(seriesSum[j]);
+        }
+    </script>
+</body>
+</html>

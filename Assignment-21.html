@@ -6,19 +6,16 @@
     <title>Assignment-21</title>
 </head>
 <body>
+    <!-- Q 28: To display all number from 1 to N and then folloed by N-1 to 1 -->
+
     <script>
-        var base = prompt("Please input any base no.");
-        var power = prompt("Please input any power no.");
-        base = parseInt(base);
-        var result = 1;
-
-        for (i = 1;  i <= power; i++) {
-          result = result * base;
-          
-        }
-        document.write(base + " exponent " + power + " = " + result);
-    
-
+        var userInput = prompt("Please input any number");
+        for(var i = 1; i <= userInput; i++) {
+            document.write(i + "<br/>");
+        } 
+        for(var j = i-2; j >= 1; j--) {
+            document.write(j + "<br/>");
+        }    
     </script>
 </body>
 </html>

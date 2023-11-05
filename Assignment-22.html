@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-22</title>
+</head>
+<body>
+    <!-- Q 30: To calculate the sum of input integer until user input negative no. -->
+
+    <script>
+        var total = 0;
+        
+        do {
+            var userInput = prompt("Enter only Possitive number");
+                userInput = parseInt(userInput);
+            
+
+            if(userInput >= 0) {
+                total = total + userInput
+            }
+
+        }while(userInput >= 0);
+
+        alert(" Oops! You have entered Negative number, Here is your Sum = " + total );
+       
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-24</title>
+</head>
+<body>
+   <!-- Q 35: Take a five digit number and print the reverse on the next line  -->
+
+   <script>
+        var userInput = prompt("Enter Only 5 digit or less");
+        
+        if(userInput.length <= 5) {
+            for (i = 1; i <= userInput.length; i++) {
+            document.write(userInput.charAt(userInput.length-i));
+            }
+        }
+        else {
+            alert("You inputted more than 5 digits");
+        }
+        
+   </script>
+</body>
+</html>

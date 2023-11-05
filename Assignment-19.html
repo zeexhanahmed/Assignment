@@ -6,9 +6,20 @@
     <title>Assignment-19</title>
 </head>
 <body>
-    <script>
-        var userInput = prompt("Please input any number");
+    <!-- Q 25: To print the no. from 1 to N along with indication whether each is even or odd -->
+
+    <script> 
+        var userInput = prompt("Please enter any no.");
+        var userInputInteger = parseInt(userInput);
         
+        for (i = 1; i <= userInputInteger; i++ ) {
+
+            if( i % 2) {
+                document.write(i + " " + "Odd" + "<br>");
+            }else {
+                document.write(i + " " + "Even" + "<br>");
+            }
+        }
     </script>
 </body>
 </html>

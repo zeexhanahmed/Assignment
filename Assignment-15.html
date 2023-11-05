@@ -6,6 +6,18 @@
     <title>Assignment-15</title>
 </head>
 <body>
-    
+    <!-- Q 17: To display the product of all numbers from 1 to N -->
+
+    <script>
+        var userInput = prompt("Enter Any No. Greater than 1");
+        var userInputInteger = parseInt(userInput);
+        var total = 1;
+
+        for(var i = 1; i <= userInputInteger; i++) {
+            total = total * i;
+        }
+
+        document.write(total);
+    </script>
 </body>
 </html>

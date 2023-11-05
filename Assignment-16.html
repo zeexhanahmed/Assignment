@@ -6,6 +6,18 @@
     <title>Assignment-16</title>
 </head>
 <body>
-    
+    <!-- Q 19: To display the factorial of given integer -->
 </body>
+
+<script>
+    var userInput = prompt("Enter Any No. Greater than 1");
+    var userInputInteger = parseInt(userInput);
+    var total = 1;
+
+    for(var i = 1; i <= userInputInteger; i++) {
+        total = total * i;
+    }
+
+    document.write("The factorial of given interger is: " + total);
+</script>
 </html>

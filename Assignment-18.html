@@ -6,6 +6,22 @@
     <title>Document</title>
 </head>
 <body>
+    <!-- Q 24: Take a number as input and print all of its divisors -->
+    
+    <script>
+        var divisors = [];
+        var userInput = prompt("Please input any no. greater than 1");
+        var userInput = parseInt(userInput);
+
+        for(i = 0; i <= userInput; i++) {
+            if (userInput%i === 0){
+                divisors.push(i);
+            }
+        }
+
+        document.write("The divisors of given number are: " + divisors);
+        
+    </script>
     
 </body>
 </html>

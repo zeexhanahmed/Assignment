@@ -6,9 +6,12 @@
     <title>Assignment-06</title>
 </head>
 <body>
+    <!-- Q8: To check whether an input year is leap year or not -->
+
     <script>
         var userinput = prompt("Input Any Year");
-        function leapyear(userinput){
+        
+        function leapyear(userinput) {
             if (userinput % 4 === 0 && userinput % 100 !==0){
                 return true;
             }else if(userinput % 400 === 0){
@@ -20,7 +23,7 @@
         }
 
         var answer = leapyear(userinput);
-        if (answer === true){
+        if (answer === true) {
             alert("It's a leap year");
         }else{
             alert("It's not a leap year");

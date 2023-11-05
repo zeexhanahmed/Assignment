@@ -6,18 +6,21 @@
     <title>Assignment-20</title>
 </head>
 <body>
+    <!-- Q 26: To print the power of A power B using user defined function where A and B are integer input -->
+    
     <script>
-        var userInput = prompt("Please enter any no.");
-        var userInputInteger = parseInt(userInput);
-        
-        for (i = 1; i <= userInputInteger; i++ ) {
+        var base = prompt("Please input any base no.");
+        var power = prompt("Please input any power no.");
+        base = parseInt(base);
+        var result = 1;
 
-            if( i % 2) {
-                document.write(i + " " + "Odd" + "<br>");
-            }else {
-                document.write(i + " " + "Even" + "<br>");
-            }
+        for (i = 1;  i <= power; i++) {
+          result = result * base;
         }
+        
+        document.write(base + " exponent " + power + " = " + result);
+    
+
     </script>
 </body>
 </html>
