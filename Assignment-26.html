@@ -9,32 +9,34 @@
     <!-- Q 34: Take input from user and count and then print total no. of word, vowel and character -->
 
     <script>
-        // var userInput = prompt("Enter any sentence");
-        // userInput = userInput.toLowerCase();
-        // userInput = userInput.trim();
-        // var vowel = ["a", "e", "i", "o", "u"];
-        // var vowelCount = 0;
-        // var wordCount = 0;
+        
+        var userInput = prompt("Enter any sentence");
+        userInput = userInput.toLowerCase();
+        userInput = userInput.trim();
+
+        var vowel = ["a", "e", "i", "o", "u"];
+        var vowelCount = 0;
        
-        // for(var i = 0; i <= userInput.length-1; i++) {
-        //     for( var j = 0; j <= 4; j++) {
-        //         if (userInput[i] === vowel[j]) {
-        //             vowelCount = vowelCount + 1;
-        //         }
-        //     }
+        for(var i = 0; i <= userInput.length-1; i++) {
+            for( var j = 0; j <= 4; j++) {
+                if (userInput[i] === vowel[j]) {
+                    vowelCount = vowelCount + 1;
+                }
+            }
+        }
 
-        //     if(userInput[i] === " ") {
-        //         wordCount = wordCount + 1
-        //     }
-        // }
+        var characCount = 0;
+        for(var k = 1; k <= userInput.length; k++) {
+            if(userInput[k] !== " "){
+                characCount = characCount + 1;
+            }
+        }
 
-        // document.write("Vowel count = " + vowelCount + "<br/> Word Count = " + (wordCount + 1) + "<br/> Character Count = " + userInput.length);
+        var wordCount = userInput.split(" ");
+        wordCount = wordCount.length;
 
-       
+        document.write("Vowel count = " + vowelCount + "<br/> Word Count = " + wordCount + "<br/> Character Count = " + characCount);
 
-        var userInput = prompt("enter any sentence");
-        userInput = userInput.split(" ");
-        document.write(userInput.length);
     </script>
 </body>
 </html>

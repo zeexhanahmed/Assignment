@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-43</title>
+</head>
+<body>
+    <!-- Q 51 : Write a program to input a number N, and then generate the following pattern  -->
+
+
+    <script>
+
+        var userInput = prompt("Please input any possitive number.");
+        if(userInput <= 0){
+            var userInput = prompt("You inputted negative number! Please input any possitive number.");
+        }
+
+        for(var i = 1; i <= userInput; i++){
+
+            var total = 0;
+
+            for(var j = 1; j <= i; j++){
+
+                total = total + j;
+
+                if(j < i){
+                    document.write(j + " + ");
+                }else{
+                    document.write(j);
+                }
+            }
+            
+            document.write(" = " + total);
+            document.write("<br/>");
+        }
+    </script>
+</body>
+</html>
