@@ -45,3 +45,222 @@ var questions = [
     "Write a program to input a number N, and then generate the following pattern",
 
 ];
+
+
+var answer = [
+    {
+        "answer" : "Example",
+        "link" : "Assignment-1.html"
+    },
+
+    {
+        "answer" : "Example",
+        "link" : "Assignment-2.html" 
+    },
+
+    {
+        "answer" : "Example",
+        "link" : "Assignment-3.html"
+    },
+
+    {
+        "answer" : "Example",
+        "link" : "Assignment-4.html"
+    },
+
+    {
+        "answer" : "Example",
+        "link" : "Assignment-5.html"
+    },
+
+    {
+        "answer" : "Example",
+        "link" : "Assignment-6.html"
+    },
+
+    {
+        "answer" : "Example",
+        "link" : "Assignment-7.html"
+    },
+
+    {
+        "answer" : "Example",
+        "link" : "Assignment-8.html"
+    },
+
+    {
+        "answer" : "Example",
+        "link" : "Assignment-9.html"
+    },
+
+    {
+        "answer" : "Example",
+        "link" : "Assignment-10.html"
+    },
+
+    {
+        "answer" : "Example",
+        "link" : "Assignment-11.html"
+    },
+
+    {
+        "answer" : "Example",
+        "link" : "Assignment-12.html"
+    },
+
+    {
+        "answer" : "Example",
+        "link" : "Assignment-13.html"
+    },
+
+    {
+        "answer" : "Example",
+        "link" : "Assignment-14.html"
+    },
+
+    {
+        "answer" : "Example",
+        "link" : "Assignment-15.html"
+    },
+
+    {
+        "answer" : "Example",
+        "link" : "Assignment-16.html"
+    },
+
+    {
+        "answer" : "Example",
+        "link" : "Assignment-17.html"
+    },
+
+    {
+        "answer" : "Example",
+        "link" : "Assignment-18.html"
+    },
+
+    {
+        "answer" : "Example",
+        "link" : "Assignment-19.html"
+    },
+
+    {
+        "answer" : "Example",
+        "link" : "Assignment-20.html"
+    },
+
+    {
+        "answer" : "Example",
+        "link" : "Assignment-21.html"
+    },
+
+    {
+        "answer" : "Example",
+        "link" : "Assignment-22.html"
+    },
+
+    {
+        "answer" : "Example",
+        "link" : "Assignment-23.html"
+    },
+
+    {
+        "answer" : "Example",
+        "link" : "Assignment-24.html"
+    },
+
+    {
+        "answer" : "Example",
+        "link" : "Assignment-25.html"
+    },
+
+    {
+        "answer" : "Example",
+        "link" : "Assignment-26.html"
+    },
+
+    {
+        "answer" : "Example",
+        "link" : "Assignment-27.html"
+    },
+
+    {
+        "answer" : "Example",
+        "link" : "Assignment-28.html"
+    },
+
+    {
+        "answer" : "Example",
+        "link" : "Assignment-29.html"
+    },
+
+    {
+        "answer" : "Example",
+        "link" : "Assignment-30.html"
+    },
+
+    {
+        "answer" : "Example",
+        "link" : "Assignment-31.html"
+    },
+
+    {
+        "answer" : "Example",
+        "link" : "Assignment-32.html"
+    },
+
+    {
+        "answer" : "Example",
+        "link" : "Assignment-33.html"
+    },
+
+    {
+        "answer" : "Example",
+        "link" : "Assignment-34.html"
+    },
+
+    {
+        "answer" : "Example",
+        "link" : "Assignment-35.html"
+    },
+
+    {
+        "answer" : "Example",
+        "link" : "Assignment-36.html"
+    },
+
+    {
+        "answer" : "Example",
+        "link" : "Assignment-37.html"
+    },
+
+    {
+        "answer" : "Example",
+        "link" : "Assignment-38.html"
+    },
+
+    {
+        "answer" : "Example",
+        "link" : "Assignment-39.html"
+    },
+
+    {
+        "answer" : "Example",
+        "link" : "Assignment-40.html"
+    },
+
+    {
+        "answer" : "Example",
+        "link" : "Assignment-41.html"
+    },
+
+    {
+        "answer" : "Example",
+        "link" : "Assignment-42.html"
+    },
+
+    {
+        "answer" : "Example",
+        "link" : "Assignment-43.html"
+    }
+
+];

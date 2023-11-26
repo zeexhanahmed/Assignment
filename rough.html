@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array</title>
+</head>
+
+<body>
+
+    <script>
+
+        // var questions = [
+        //     "Question 01",
+        //     "Question 02",
+        //     "Question 03",
+        //     "Question 04",
+        //     "Question 05"
+        // ];
+
+        var questionsWithLinks = [
+            {
+                "question": "This is my first question.",
+                "link": "https://google.com",
+                "serial": "03"
+            },
+            {
+                "question": "This is my second question.",
+                "link": "https://facebook.com",
+                "serial": "05"
+            },
+
+
+        ];
+
+        for (var i = 0; i < questionsWithLinks.length; i++) {
+
+            var questionObject = questionsWithLinks[i];
+
+            document.write(
+                "<a href=' " + questionObject.link + " '> " + questionObject.question + " </a><br/>");
+        }
+
+    </script>
+
+
+</body>
+
+</html>
