@@ -21,40 +21,41 @@
         <div class="row">
 
             <div class="d-flex justify-content-center">
-                <div class="col-md-8 col-xs-10">
+                <div class="col-md-10 col-xs-10">
                     <table class="table-bordered table table-striped table-hover mt-4 mb-4">
                         <thead>
                             <tr>
                                 <th>S. NO</th>
                                 <th>OBJECT</th>
                                 <th>Examples</th>
+                                <th>View Code</th>
                             </tr>
                         </thead>
                         <tbody>
                             <script>
                                 for (var i = 0; i <= questions.length - 1; i++) {
 
-                                    document.write("<tr><td> " + (i + 1) + " </td><td> " + questions[i]);
+                                    document.write("<tr><td> " + (i + 1) + " </td><td> " + questions[i] + "</td>");
 
-                                        for(var j = 0; j < answer.length; j++) {
+                                    for (var j = 0; j < answer.length; j++) {
 
-                                        var answerObject = answer[i];    
-                                        
+                                        var answerObject = answer[i];
+
                                     }
 
-                                    document.write("<td><a href= " + answerObject.link + " > " + answerObject.answer + "</a></td></tr>");
+                                    document.write("<td><a href= " + answerObject.link + " > " + answerObject.answer + "</a></td><td> [ <a href=" + answerObject.codeLink + "> View code </a>] </td></tr>");
 
                                 }
 
                                 document.write("<br />");
 
-                               
+
                             </script>
                         </tbody>
                     </table>
                 </div>
             </div>
-            
+
         </div>
     </div>
 

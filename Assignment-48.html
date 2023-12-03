@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-48</title>
+</head>
+<body>
+    <h1>Hello</h1>
+    <script>
+        var integerArray = [5, 6, 7, 8, 9, 10, 15, 16, 13, 12, 11];
+        var intJ;
+        var intI;
+
+        for(var i = 0; i < integerArray.length; i++) {
+            for (var j= i+1; j < integerArray.length    ; j++) {
+                if(integerArray[i] > integerArray[j]){ 
+                    
+                    intJ = integerArray[j];
+                    intI = integerArray[i];
+                    integerArray[i] = intJ;
+                    integerArray[j] = intI;
+
+                }
+            }
+        }
+
+        document.write(integerArray);
+
+    </script>
+</body>
+</html>

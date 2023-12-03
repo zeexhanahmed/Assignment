@@ -1,16 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment-45</title>
 </head>
+
 <body>
     <script>
-        var integerArray = ["5", "4", "3", "2", "1", "10", "11", "12", "13", "14"];
-        for(var i = 0; i <= integerArray.length-1; i++){
-            if()
+        var integerArray = [5, 4, 3, 2, 1, 10, 11, 12, 13, 14, 15];
+        var maxValue = integerArray[0];
+        var minValue = integerArray[0];
+
+        for (var i = 1; i <= integerArray.length - 1; i++) {
+            if (integerArray[i] > maxValue) {
+                maxValue = integerArray[i];
+            }
+
+            if (integerArray[i] < minValue) {
+                minValue = integerArray[i];
+            }
         }
+        document.write("Min Value " + minValue + " Max Value " + maxValue);
     </script>
 </body>
+
 </html>

@@ -50,217 +50,260 @@ var questions = [
 var answer = [
     {
         "answer" : "Example",
-        "link" : "Assignment-1.html"
+        "link" : "Assignment-1.html",
+        "codeLink" : "code/AssignmentCode-1.html"
     },
 
     {
         "answer" : "Example",
-        "link" : "Assignment-2.html" 
+        "link" : "Assignment-2.html",
+        "codeLink" : "code/AssignmentCode-2.html" 
     },
 
     {
         "answer" : "Example",
-        "link" : "Assignment-3.html"
+        "link" : "Assignment-3.html",
+        "codeLink" : "code/AssignmentCode-3.html"
     },
 
     {
         "answer" : "Example",
-        "link" : "Assignment-4.html"
+        "link" : "Assignment-4.html",
+        "codeLink" : "code/AssignmentCode-4.html"
     },
 
     {
         "answer" : "Example",
-        "link" : "Assignment-5.html"
+        "link" : "Assignment-5.html",
+        "codeLink" : "code/AssignmentCode-5.html"
     },
 
     {
         "answer" : "Example",
-        "link" : "Assignment-6.html"
+        "link" : "Assignment-6.html",
+        "codeLink" : "code/AssignmentCode-6.html"
     },
 
     {
         "answer" : "Example",
-        "link" : "Assignment-7.html"
+        "link" : "Assignment-7.html",
+        "codeLink" : "code/AssignmentCode-7.html"
     },
 
     {
         "answer" : "Example",
-        "link" : "Assignment-8.html"
+        "link" : "Assignment-8.html",
+        "codeLink" : "code/AssignmentCode-8.html"
     },
 
     {
         "answer" : "Example",
-        "link" : "Assignment-9.html"
+        "link" : "Assignment-9.html",
+        "codeLink" : "code/AssignmentCode-9.html"
     },
 
     {
         "answer" : "Example",
-        "link" : "Assignment-10.html"
+        "link" : "Assignment-10.html",
+        "codeLink" : "code/AssignmentCode-10.html"
     },
 
     {
         "answer" : "Example",
-        "link" : "Assignment-11.html"
+        "link" : "Assignment-11.html",
+        "codeLink" : "code/AssignmentCode-11.html"
     },
 
     {
         "answer" : "Example",
-        "link" : "Assignment-12.html"
+        "link" : "Assignment-12.html",
+        "codeLink" : "code/AssignmentCode-12.html"
     },
 
     {
         "answer" : "Example",
-        "link" : "Assignment-13.html"
+        "link" : "Assignment-13.html",
+        "codeLink" : "code/AssignmentCode-13.html"
     },
 
     {
         "answer" : "Example",
-        "link" : "Assignment-14.html"
+        "link" : "Assignment-14.html",
+        "codeLink" : "code/AssignmentCode-14.html"
     },
 
     {
         "answer" : "Example",
-        "link" : "Assignment-15.html"
+        "link" : "Assignment-15.html",
+        "codeLink" : "code/AssignmentCode-15.html"
     },
 
     {
         "answer" : "Example",
-        "link" : "Assignment-16.html"
+        "link" : "Assignment-16.html",
+        "codeLink" : "code/AssignmentCode-16.html"
     },
 
     {
         "answer" : "Example",
-        "link" : "Assignment-17.html"
+        "link" : "Assignment-17.html",
+        "codeLink" : "code/AssignmentCode-17.html"
     },
 
     {
         "answer" : "Example",
-        "link" : "Assignment-18.html"
+        "link" : "Assignment-18.html",
+        "codeLink" : "code/AssignmentCode-18.html"
     },
 
     {
         "answer" : "Example",
-        "link" : "Assignment-19.html"
+        "link" : "Assignment-19.html",
+        "codeLink" : "code/AssignmentCode-19.html"
     },
 
     {
         "answer" : "Example",
-        "link" : "Assignment-20.html"
+        "link" : "Assignment-20.html",
+        "codeLink" : "code/AssignmentCode-20.html"
     },
 
     {
         "answer" : "Example",
-        "link" : "Assignment-21.html"
+        "link" : "Assignment-21.html",
+        "codeLink" : "code/AssignmentCode-21.html"
     },
 
     {
         "answer" : "Example",
-        "link" : "Assignment-22.html"
+        "link" : "Assignment-22.html",
+        "codeLink" : "code/AssignmentCode-22.html"
     },
 
     {
         "answer" : "Example",
-        "link" : "Assignment-23.html"
+        "link" : "Assignment-23.html",
+        "codeLink" : "code/AssignmentCode-23.html"
     },
 
     {
         "answer" : "Example",
-        "link" : "Assignment-24.html"
+        "link" : "Assignment-24.html",
+        "codeLink" : "code/AssignmentCode-24.html"
     },
 
     {
         "answer" : "Example",
-        "link" : "Assignment-25.html"
+        "link" : "Assignment-25.html",
+        "codeLink" : "code/AssignmentCode-25.html"
     },
 
     {
         "answer" : "Example",
-        "link" : "Assignment-26.html"
+        "link" : "Assignment-26.html",
+        "codeLink" : "code/AssignmentCode-26.html"
     },
 
     {
         "answer" : "Example",
-        "link" : "Assignment-27.html"
+        "link" : "Assignment-27.html",
+        "codeLink" : "code/AssignmentCode-27.html"
     },
 
     {
         "answer" : "Example",
-        "link" : "Assignment-28.html"
+        "link" : "Assignment-28.html",
+        "codeLink" : "code/AssignmentCode-28.html"
     },
 
     {
         "answer" : "Example",
-        "link" : "Assignment-29.html"
+        "link" : "Assignment-29.html",
+        "codeLink" : "code/AssignmentCode-29.html"
     },
 
     {
         "answer" : "Example",
-        "link" : "Assignment-30.html"
+        "link" : "Assignment-30.html",
+        "codeLink" : "code/AssignmentCode-30.html"
     },
 
     {
         "answer" : "Example",
-        "link" : "Assignment-31.html"
+        "link" : "Assignment-31.html",
+        "codeLink" : "code/AssignmentCode-31.html"
     },
 
     {
         "answer" : "Example",
-        "link" : "Assignment-32.html"
+        "link" : "Assignment-32.html",
+        "codeLink" : "code/AssignmentCode-32.html"
     },
 
     {
         "answer" : "Example",
-        "link" : "Assignment-33.html"
+        "link" : "Assignment-33.html",
+        "codeLink" : "code/AssignmentCode-33.html"
     },
 
     {
         "answer" : "Example",
-        "link" : "Assignment-34.html"
+        "link" : "Assignment-34.html",
+        "codeLink" : "code/AssignmentCode-34.html"
     },
 
     {
         "answer" : "Example",
-        "link" : "Assignment-35.html"
+        "link" : "Assignment-35.html",
+        "codeLink" : "code/AssignmentCode-35.html"
     },
 
     {
         "answer" : "Example",
-        "link" : "Assignment-36.html"
+        "link" : "Assignment-36.html",
+        "codeLink" : "code/AssignmentCode-36.html"
     },
 
     {
         "answer" : "Example",
-        "link" : "Assignment-37.html"
+        "link" : "Assignment-37.html",
+        "codeLink" : "code/AssignmentCode-37.html"
     },
 
     {
         "answer" : "Example",
-        "link" : "Assignment-38.html"
+        "link" : "Assignment-38.html",
+        "codeLink" : "code/AssignmentCode-38.html"
     },
 
     {
         "answer" : "Example",
-        "link" : "Assignment-39.html"
+        "link" : "Assignment-39.html",
+        "codeLink" : "code/AssignmentCode-39.html"
     },
 
     {
         "answer" : "Example",
-        "link" : "Assignment-40.html"
+        "link" : "Assignment-40.html",
+        "codeLink" : "code/AssignmentCode-40.html"
     },
 
     {
         "answer" : "Example",
-        "link" : "Assignment-41.html"
+        "link" : "Assignment-41.html",
+        "codeLink" : "code/AssignmentCode-41.html"
     },
 
     {
         "answer" : "Example",
-        "link" : "Assignment-42.html"
+        "link" : "Assignment-42.html",
+        "codeLink" : "code/AssignmentCode-42.html"
     },
 
     {
         "answer" : "Example",
-        "link" : "Assignment-43.html"
+        "link" : "Assignment-43.html",
+        "codeLink" : "code/AssignmentCode-43.html"
     }
 
 ];

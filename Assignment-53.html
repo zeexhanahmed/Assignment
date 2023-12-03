@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-53</title>
+</head>
+<body>
+    <script>
+        var userInput = prompt("Please Write Any Sentence");
+        document.write("Before : " + userInput + "<br/>");
+        var inputArray = [];
+        inputArray = userInput.split(" ");
+
+        document.write("After : ");
+        
+        for(var i = 0; i < inputArray.length; i++) {
+
+            for(var j = inputArray[i].length-1; j>=0; j--) {
+                document.write(inputArray[i].charAt(j));
+            }
+            document.write(" ");
+
+        }
+    </script>
+</body>
+</html> 

@@ -9,12 +9,11 @@
     <!-- Q 53: To display the sum of all element in an integer array -->
 
     <script>
-        var integerArray = ["2", "3", "2", "4", "2"];
-        // integerArray = parseInt(integerArray);
+        var integerArray = [2, 3, 2, 4, 2];
         var total = 0;
 
         for(var i = 0; i <=integerArray.length-1; i++){
-            total = total + integerArray[i];
+            total = total + parseInt(integerArray[i]);
         }
 
         document.write(total);

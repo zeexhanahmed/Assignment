@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-46</title>
+</head>
+<body>
+    <script>
+        var integerArray = [11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21];
+        var evenCount = 0;
+        var oddCount = 0;
+        
+        for (var i = 0; i <= integerArray.length-1; i++) {
+
+            if(integerArray[i]%2 === 0) {
+                document.write(integerArray[i] + "Even");
+                evenCount = evenCount + 1;
+
+            }else {
+                document.write(integerArray[i] + "Odd");
+                oddCount = oddCount + 1;
+            }
+
+            document.write("<br />");
+        }
+
+        document.write("Even Count " + evenCount + " Odd Count " + oddCount);
+       
+    </script>
+</body>
+</html>
