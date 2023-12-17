@@ -43,7 +43,26 @@ var questions = [
     "To display the following pattern",
     "To display the following pattern",
     "Write a program to input a number N, and then generate the following pattern",
-
+    "To display the sum of all element in an integer array",
+    "To print the maximum and minimum number from an integer array of 10 element",
+    "To display all element of an integer array with an indication whether each is even or odd also display the count of even and odd number",
+    "To search a given number in an integer array of 10 element (Linear Search)",
+    "To sort given integer array of 10 element in ascending order",
+    "To sort given integer array of 10 element in decending order",
+    "To spell the inputted integer in words",
+    "To calculate and print the average of all element in a given integer array",
+    "To display the given integer array of 10 element such as the first element is displayed once, second is displayed twice and so on",
+    "To check whether input string is palindrome or not",
+    "To input a string and display it without displaying vowels",
+    "To display the reverse of a string without using strrev() function",
+    "To input a multi word string and then display each word on next line",
+    "To reverse each word of an inputted multi word sring",
+    "To convert all uppercase into lowercsae and lowercsae into uppercase without using library function",
+    "That count the frequency of character in an inputted string",
+    "Read 10 elements in an integer array with a check that no number is entered again",
+    "Read 10 element in an integer array, then display only those element that are divisible by K (where K is an input number)",
+    "Take two integer array and combine them in such a way that no element is repeated again",
+    "That take two integer array and print the intersections of two arrays"
 ];
 
 
@@ -304,6 +323,132 @@ var answer = [
         "answer" : "Example",
         "link" : "Assignment-43.html",
         "codeLink" : "code/AssignmentCode-43.html"
+    },
+
+    {
+        "answer" : "Example",
+        "link" : "Assignment-44.html",
+        "codeLink" : "code/AssignmentCode-44.html"
+    },
+
+    {
+        "answer" : "Example",
+        "link" : "Assignment-45.html",
+        "codeLink" : "code/AssignmentCode-45.html"
+    },
+
+
+    {
+        "answer" : "Example",
+        "link" : "Assignment-46.html",
+        "codeLink" : "code/AssignmentCode-46.html"
+    },
+
+
+    {
+        "answer" : "Example",
+        "link" : "Assignment-47.html",
+        "codeLink" : "code/AssignmentCode-47.html"
+    },
+
+
+    {
+        "answer" : "Example",
+        "link" : "Assignment-48.html",
+        "codeLink" : "code/AssignmentCode-48.html"
+    },
+
+
+    {
+        "answer" : "Example",
+        "link" : "Assignment-49.html",
+        "codeLink" : "code/AssignmentCode-49.html"
+    },
+
+    {
+        "answer" : "Example",
+        "link" : "Assignment-50.html",
+        "codeLink" : "code/AssignmentCode-50.html"
+    },
+
+    {
+        "answer" : "Example",
+        "link" : "Assignment-51.html",
+        "codeLink" : "code/AssignmentCode-51.html"
+    },
+
+    {
+        "answer" : "Example",
+        "link" : "Assignment-52.html",
+        "codeLink" : "code/AssignmentCode-52.html"
+    },
+
+    {
+        "answer" : "Example",
+        "link" : "Assignment-53.html",
+        "codeLink" : "code/AssignmentCode-53.html"
+    },
+
+    {
+        "answer" : "Example",
+        "link" : "Assignment-54.html",
+        "codeLink" : "code/AssignmentCode-54.html"
+    },
+
+    {
+        "answer" : "Example",
+        "link" : "Assignment-55.html",
+        "codeLink" : "code/AssignmentCode-55.html"
+    },
+
+    {
+        "answer" : "Example",
+        "link" : "Assignment-56.html",
+        "codeLink" : "code/AssignmentCode-56.html"
+    },
+
+    {
+        "answer" : "Example",
+        "link" : "Assignment-57.html",
+        "codeLink" : "code/AssignmentCode-57.html"
+    },
+
+    {
+        "answer" : "Example",
+        "link" : "Assignment-58.html",
+        "codeLink" : "code/AssignmentCode-58.html"
+    },
+
+    {
+        "answer" : "Example",
+        "link" : "Assignment-59.html",
+        "codeLink" : "code/AssignmentCode-59.html"
+    },
+
+    {
+        "answer" : "Example",
+        "link" : "Assignment-60.html",
+        "codeLink" : "code/AssignmentCode-60.html"
+    },
+
+    {
+        "answer" : "Example",
+        "link" : "Assignment-61.html",
+        "codeLink" : "code/AssignmentCode-61.html"
+    },
+
+    {
+        "answer" : "Example",
+        "link" : "Assignment-62.html",
+        "codeLink" : "code/AssignmentCode-62.html"
+    },
+
+    {
+        "answer" : "Example",
+        "link" : "Assignment-63.html",
+        "codeLink" : "code/AssignmentCode-63.html"
     }
+
+
 
 ];

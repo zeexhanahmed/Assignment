@@ -5,12 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment-48</title>
 </head>
+
 <body>
-    <h1>Hello</h1>
+    <!-- Q 57: To sort given integer array of 10 element in ascending order -->
+
+
     <script>
+
         var integerArray = [5, 6, 7, 8, 9, 10, 15, 16, 13, 12, 11];
         var intJ;
         var intI;
+
+        document.write("Before: " + integerArray);
+        document.write("<br/>");
 
         for(var i = 0; i < integerArray.length; i++) {
             for (var j= i+1; j < integerArray.length    ; j++) {
@@ -25,7 +32,7 @@
             }
         }
 
-        document.write(integerArray);
+        document.write("After: " + integerArray);
 
     </script>
 </body>

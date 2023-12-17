@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AssignmentCode-11</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <style>
+        code {
+            color: crimson !important;
+        }
+        body  {
+            background-color: whitesmoke;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-8 mt-5">
+                <div class="card shadow">
+                    <div class="card-header">
+                        <div class="d-flex justify-content-between">
+                            <p>Q 13: To input marks of 5 subject, then calculate and print percentage and grade</p>
+                            <a href="../Assignment-11.html"><button class="pe-3 ps-3 btn btn-sm btn-primary float-end">Run</button></a>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <pre>
+                        <code>
+&lt;script&gt;
+var studentName = prompt("Input Complete Name Of Student");
+       
+var mathsMarks = prompt("Please Input Maths Marks");
+if (mathsMarks > 100) {
+    alert("You input an invalid marks");
+    mathsMarks = prompt("Please Input Maths Marks Again");
+}
+
+var englishMarks = prompt("Please Input English Marks");
+if (englishMarks > 100) {
+    alert("You input an invalid marks");
+    englishMarks =  prompt("Please Input English Marks Again");
+}
+
+var urduMarks = prompt("Please Input Urdu Marks");
+if (urduMarks > 100) {
+    alert("You input an invalid marks");
+    urduMarks = prompt("Please Input Urdu Marks Again");
+}
+
+var islMarks = prompt("Please Input Islamiat Marks");
+if (islMarks > 100) {
+    alert("You input an invalid marks");
+    islMarks = prompt("Please Input Islamiat Marks Again");
+}
+
+var sciMarks = prompt("Please Input Science Marks"); 
+if (sciMarks > 100) {
+    alert("You input an invalid marks");
+    sciMarks = prompt("Please Input Science Marks Again"); 
+}
+
+function calculateResult(mathsMarks, englishMarks, urduMarks, islMarks, sciMarks) {
+var obtainedMarks = parseInt(mathsMarks) + parseInt(englishMarks) + parseInt(urduMarks) + parseInt(islMarks) + parseInt(sciMarks);
+var totalMarks = 500;
+var calculatingpercentage = (obtainedMarks/totalMarks)*100;
+var percentage = calculatingpercentage.toFixed(2);
+
+var grade;
+if (percentage >= 80){
+    grade = "A1";
+}
+else if (percentage >= 70 && percentage <= 79.9){
+    grade = "A";
+}
+else if (percentage >= 60 && percentage <= 69.9){
+    grade = "B";
+}
+else {
+    var grade = "C";
+}
+
+var result = (studentName + " " + "got" + " " + percentage + "%" + " " +"marks with Grade" + " " + grade + "<br/>" + "Thank you!");
+return result;
+
+}
+
+var finalReport = calculateResult(mathsMarks, englishMarks, urduMarks, islMarks, sciMarks);
+document.write(finalReport);
+
+&lt;/script&gt;
+                        </code>
+                        </pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

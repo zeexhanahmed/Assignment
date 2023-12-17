@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-56</title>
+</head>
+<body>
+    <!-- Q 65: To input a multi word string and then display each word on next line -->
+
+    <script>
+        var userInput = prompt("Please input any sentence");
+        userInput = userInput.split(" ");
+
+        for(var i = 0; i < userInput.length; i++) {
+            document.write(userInput[i]);
+            document.write("<br/>");
+        }
+    </script>
+</body>
+</html>

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AssignmentCode-2</title>
+    <title>AssignmentCode-1</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -16,45 +16,61 @@
         code {
             color: crimson !important;
         }
-
-        body {
+        body  {
             background-color: whitesmoke;
         }
     </style>
 </head>
 
 <body>
+
     <div class="container">
         <div class="row d-flex justify-content-center">
             <div class="col-md-8 mt-5">
                 <div class="card shadow">
                     <div class="card-header">
                         <div class="d-flex justify-content-between">
-                            <p>Q2: Input two numbers and swap them without using third variable and print them on the
-                                next line</p>
-                            <a href="../Assignment-2.html"><button
-                                    class="pe-3 ps-3 btn btn-sm btn-primary float-end">Run</button></a>
+                            <p>To find out volume of sphere and area of triangle, given radius as input</p>
+                            <a href="../Assignment-3.html"><button class="pe-3 ps-3 btn btn-sm btn-primary float-end">Run</button></a>
                         </div>
                     </div>
                     <div class="card-body">
                         <pre>
-                    <code>
+                        <code>
 &lt;script&gt;
-var a = 20;
-var b = 30;
+var radius = prompt("Please input the value of radius")
+function calculateVolumeOfSphere(radius){
+var volOfSphere = (4/3)*(3.142)*radius*radius*radius;
+
+return volOfSphere;
+}
+
+var volume = calculateVolumeOfSphere(radius);
+document.write("Volume of Sphere is " + volume + "<br/>");
 
 
-a = a + b;
-b = a - b 
-a = a - b;
 
-document.write(a + "&lt;br/&gt;" + b);
+
+var height = prompt("Please input the value of height");
+var base = prompt("Please input the value of base");
+function calculateAreaOfTriangle(height, base){
+var areaOfTriangle = (height*base)/2;
+
+return areaOfTriangle;
+}
+
+var area = calculateAreaOfTriangle(height, base);
+document.write ("Area of Triangle is " + area);
+
 &lt;/script&gt;
-                    </code>
-                    </pre>
+                        </code>
+                        </pre>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
 </body>
+
+</html>

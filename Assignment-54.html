@@ -4,66 +4,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Assignment-54</title>
 </head>
 
 <body>
+    <!-- Q 63: To input a string and display it without displaying vowels -->
+
     <script>
-        var userInput = prompt("Please input any number ");  //35
-        var number;
 
+        var userInput = prompt("Please input any word");
+        userInput = userInput.split(" ");
 
-        document.write("User Input: " + userInput + "<br/>");
+        var vowels = ["a", "e", "i", "o", "u"];
+        var userInputLower;
 
-        var numOfChar = userInput.length;
-        for (var i = 0; i < numOfChar; i++) {
-            number = userInput.slice(i, i + 1);
+        for (var i = 0; i < userInput.length; i++) {
 
-            switch (number) {
-                case "0":
-                    document.write("Zero ");
-                    break;
+            for (k = 0; k < userInput[i].length; k++) {
+                
+                userInputLower = userInput[i][k].toLowerCase();
+                var flag = false;
 
-                case "1":
-                    document.write("One ");
-                    break;
+                for (var j = 0; j < vowels.length; j++) {
 
-                case "2":
-                    document.write("Two ");
-                    break;
+                    if (userInputLower == vowels[j]) {
+                        flag = true;
+                        break;
+                    }
 
-                case "3":
-                    document.write("Three ");
-                    break;
+                }
 
-                case "4":
-                    document.write("Four ");
-                    break;
+                if (!flag) {
+                    document.write(userInput[i][k]);
+                }
 
-                case "5":
-                    document.write("Five ");
-                    break;
-
-                case "6":
-                    document.write("Six ");
-                    break;
-
-                case "7":
-                    document.write("Seven ");
-                    break;
-
-                case "8":
-                    document.write("Eight ");
-                    break;
-
-                case "9":
-                    document.write("Nine ");
-                    break;
-                default:
-                    document.write(" " + number + "  is not a number.  ");
             }
         }
     </script>
+
 </body>
 
 </html>

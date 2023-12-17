@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-62</title>
+</head>
+
+<body>
+    <!-- Q 71: Take two integer array and combine them in such a way that no element is repeated again -->
+
+    <script>
+        firstArray = [2, 4, 1, 8, 10, 12, 12, 15, 100, -1, 22, 45];
+        secondArray = [12, 2, 3, 4, 5, 11, 89, 33, 22, 45];
+        mixArray = [];
+
+        for (var i = 0; i < firstArray.length; i++) {
+            var flag = false;
+
+            for (var j = 0; j < secondArray.length; j++) {
+                if (firstArray[i] == secondArray[j]) {
+                    flag = true;
+                    break;
+                }
+            }
+
+            if (!flag) {
+                mixArray.push(firstArray[i]);
+            }
+        }
+
+        for (var i = 0; i < secondArray.length; i++) {
+            var flag = false;
+
+            for (var j = 0; j < mixArray.length; j++) {
+
+                if (secondArray[i] == mixArray[j]) {
+                    flag = true;
+                    break;
+                }
+
+            }
+
+            if (!flag) {
+                mixArray.push(secondArray[i]);
+            }
+        }
+
+
+
+
+
+
+
+
+
+
+        document.write(mixArray);
+    </script>
+</body>
+
+</html>

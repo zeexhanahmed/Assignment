@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-63</title>
+</head>
+
+<body>
+    <!-- Q 72: That take two integer array and print the intersections of two arrays -->
+
+    <script>
+        firstArray = [4, 4, 4, 8, 10];
+        secondArray = [4, 2, 3, 4, 5];
+        intersection = [];
+
+        for (var i = 0; i <= 4; i++) {
+            for (var j = 0; j <= 4; j++) {
+                if (firstArray[i] === secondArray[j]) {
+                    intersection.push(firstArray[i]);
+                }
+            }
+        }
+
+        document.write(intersection);
+    </script>
+</body>
+
+</html>

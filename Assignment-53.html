@@ -1,27 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment-53</title>
 </head>
+
 <body>
+    <!-- Q 62: To check whether input string is palindrome or not -->
+
+
     <script>
-        var userInput = prompt("Please Write Any Sentence");
-        document.write("Before : " + userInput + "<br/>");
-        var inputArray = [];
-        inputArray = userInput.split(" ");
 
-        document.write("After : ");
+        var userInput = prompt("Please input any word to check whether its palindrome or not");
+        var flag = false;
+
+
+        //ABBA -- 3-2=1
+        //A A   0 !== 3-0=3
+        //B B   1 !== 3-1=2
+        //B B   2 !== 3-2=1
+        //A A   3 !== 3-3=0
+
+        //userInput.length-i-1 ==>  4-0-1=3
+        //userInput.length-i-1 ==>  4-1-1=2
+        //userInput.length-i-1 ==>  4-2-1=1
+        //userInput.length-i-1 ==>  4-3-1=0
         
-        for(var i = 0; i < inputArray.length; i++) {
 
-            for(var j = inputArray[i].length-1; j>=0; j--) {
-                document.write(inputArray[i].charAt(j));
+        for (var i = 0; i < userInput.length; i++) {
+            if (userInput.charAt(i) !== userInput.charAt(userInput.length-i-1)) {
+                flag = true;
             }
-            document.write(" ");
-
         }
+
+        if (!flag) {
+            document.write("It is Palindrome.");
+        } else {
+            document.write("It is not Palindrome.");
+        }
+
     </script>
+
 </body>
-</html> 
+
+</html>
