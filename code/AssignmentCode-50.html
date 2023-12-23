@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AssignmentCode-29</title>
+    <title>AssignmentCode-50</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -30,20 +30,67 @@
                 <div class="card shadow">
                     <div class="card-header">
                         <div class="d-flex justify-content-between">
-                            <p>Q : To display the following pattern</p>
-                            <a href="../Assignment-29.html"><button class="pe-3 ps-3 btn btn-sm btn-primary float-end">Run</button></a>
+                            <p>Q 59: To spell the inputted integer in words</p>
+                            <a href="../Assignment-50.html"><button class="pe-3 ps-3 btn btn-sm btn-primary float-end">Run</button></a>
                         </div>
                     </div>
                     <div class="card-body">
                         <pre>
                         <code>
 &lt;script&gt;
-for(i = 1; i <= 5; i++) {
-    for(j = 1; j <= i; j++){
-        document.write(j);
-    }
+var userInput = prompt("Please input any number ");
+var number;
 
-    document.write("&lt;br/&gt;");
+
+document.write("User Input: " + userInput + "&lt;br/&gt;");
+
+var numOfChar = userInput.length;
+for (var i = 0; i < numOfChar; i++) {
+    number = userInput.slice(i, i + 1);
+
+    switch (number) {
+        case "0":
+            document.write("Zero ");
+            break;
+
+        case "1":
+            document.write("One ");
+            break;
+
+        case "2":
+            document.write("Two ");
+            break;
+
+        case "3":
+            document.write("Three ");
+            break;
+
+        case "4":
+            document.write("Four ");
+            break;
+
+        case "5":
+            document.write("Five ");
+            break;
+
+        case "6":
+            document.write("Six ");
+            break;
+
+        case "7":
+            document.write("Seven ");
+            break;
+
+        case "8":
+            document.write("Eight ");
+            break;
+
+        case "9":
+            document.write("Nine ");
+            break;
+        default:
+            document.write(" " + number + "  is not a number.  ");
+    }
 }
 &lt;/script&gt;
                         </code>

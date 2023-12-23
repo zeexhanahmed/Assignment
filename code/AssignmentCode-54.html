@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AssignmentCode-29</title>
+    <title>AssignmentCode-54</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -30,20 +30,41 @@
                 <div class="card shadow">
                     <div class="card-header">
                         <div class="d-flex justify-content-between">
-                            <p>Q : To display the following pattern</p>
-                            <a href="../Assignment-29.html"><button class="pe-3 ps-3 btn btn-sm btn-primary float-end">Run</button></a>
+                            <p>Q 63: To input a string and display it without displaying vowels</p>
+                            <a href="../Assignment-54.html"><button class="pe-3 ps-3 btn btn-sm btn-primary float-end">Run</button></a>
                         </div>
                     </div>
                     <div class="card-body">
                         <pre>
                         <code>
 &lt;script&gt;
-for(i = 1; i <= 5; i++) {
-    for(j = 1; j <= i; j++){
-        document.write(j);
-    }
+var userInput = prompt("Please input any word");
+userInput = userInput.split(" ");
 
-    document.write("&lt;br/&gt;");
+var vowels = ["a", "e", "i", "o", "u"];
+var userInputLower;
+
+for (var i = 0; i < userInput.length; i++) {
+
+    for (k = 0; k < userInput[i].length; k++) {
+        
+        userInputLower = userInput[i][k].toLowerCase();
+        var flag = false;
+
+        for (var j = 0; j < vowels.length; j++) {
+
+            if (userInputLower == vowels[j]) {
+                flag = true;
+                break;
+            }
+
+        }
+
+        if (!flag) {
+            document.write(userInput[i][k]);
+        }
+
+    }
 }
 &lt;/script&gt;
                         </code>

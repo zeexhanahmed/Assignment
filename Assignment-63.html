@@ -11,19 +11,22 @@
     <!-- Q 72: That take two integer array and print the intersections of two arrays -->
 
     <script>
-        firstArray = [4, 4, 4, 8, 10];
-        secondArray = [4, 2, 3, 4, 5];
-        intersection = [];
+        var firstArray = [2, 4, 6, 8, 10, 11, 12, 14, 16, 18, 20, 22, 24, 25, 28, 30];
+        var secondArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 18, 22, 30];
+        var intersection = [];
 
-        for (var i = 0; i <= 4; i++) {
-            for (var j = 0; j <= 4; j++) {
-                if (firstArray[i] === secondArray[j]) {
-                    intersection.push(firstArray[i]);
+        for (var i = 0; i < firstArray.length; i++) {
+            for (var j = 0; j < secondArray.length; j++) {
+
+                if (firstArray[i] == secondArray[j]) {
+                   intersection.push(firstArray[i])
                 }
             }
         }
 
-        document.write(intersection);
+        document.write("The intersection of given array is: " + intersection);
+
+        
     </script>
 </body>
 
