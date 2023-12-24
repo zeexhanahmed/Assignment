@@ -56,7 +56,7 @@ var questions = [
     "To input a string and display it without displaying vowels",
     "To display the reverse of a string without using strrev() function",
     "To input a multi word string and then display each word on next line",
-    "To reverse each word of an inputted multi word sring",
+    "To reverse each word of an inputted multi word string",
     "To convert all uppercase into lowercsae and lowercsae into uppercase without using library function",
     "That count the frequency of character in an inputted string",
     "Read 10 elements in an integer array with a check that no number is entered again",
